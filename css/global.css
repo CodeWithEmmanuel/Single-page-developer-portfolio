@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 62.5%;
+  color: #ffffff;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #151515;
+  padding: 1% 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr 50vh;
+  gap: 50px;
+}
+header,
+main,
+footer {
+  /* min-height: 10vh;
+  width: 100%; */
+  /* border: 1px solid #ffffff; */
+}
+
+@media screen and (min-width: 950px) {
+  body {
+    padding: 2% 10%;
+    gap: 10px;
+  }
+}
