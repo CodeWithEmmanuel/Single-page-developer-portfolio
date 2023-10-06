@@ -4,8 +4,7 @@ let inputMessage = document.getElementById("message-input");
 
 const form = document.querySelector("#form");
 const submitButton = document.querySelector("#submit");
-const scriptURL =
-  "https://script.google.com/macros/s/AKfycbwVk34w8KhtPy1Sq-H5-aQDFEsxi2gy-OrIog49w4PUW86hHllrXmo2KrpproaJ-3Ol/exec";
+const scriptURL = "";
 
 form.addEventListener("submit", (e) => {
   submitButton.disabled = true;
